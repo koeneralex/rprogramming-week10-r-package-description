@@ -1,0 +1,15 @@
+Package: cryptoPair()
+Type: Package
+Title: Import historical Cryptocurrency data including Price, Volume, Date, and relevent
+currency exchange information.
+Version: 0.0.0.9001
+Author: Alex Koener
+Maintainer: The package maintainer <koeneralex@gmail.com>
+Description:
+    This package is used to import cryptocurrency information to a data frame
+on your R project. It will take data from (coinbase.com)'s API and give whatever currency
+pair we ask for. For example, you could load "BTC/USD" which would give you data about
+Bitcoin in USD.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
